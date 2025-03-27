@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  height: auto;
+  width: 100vw;
+  background-color: rgb(71, 67, 67);
+  /* padding-left: 7vh;
+  padding-right: 7vh; */
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 10vh;
+
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7vh; */
+}

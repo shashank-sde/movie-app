@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 10vh;
+  color: white;
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-title {
+  margin-left: 4vw;
+}
+
+.nav-links {
+  margin-right: 4vw;
+  display: flex;
+  gap: 2vw;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:visited {
+  color: white;
+}
+
+.search-bar {
+  margin-right: 4vw;
+  width: 30vw;
+  padding: 0.5vh;
+  border-radius: 10px;
+  padding-left: 1vw;
+  line-height: auto;
+  border: 2px solid rgb(225, 184, 108);
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
